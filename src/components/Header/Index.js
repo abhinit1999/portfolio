@@ -1,4 +1,5 @@
 import React from 'react'
+// import { Link } from 'react-router-dom';
 import "./style.css";
 // import menubar from './menubar.png';
 const Header = () => {
@@ -11,12 +12,13 @@ const Header = () => {
         <div className="nav_bar">
             <ul>
                 
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Internship</a></li>
-                <li><a href="">Porjects</a></li>
-                <li><a href="">ContactMe</a></li>
+              {/* <Link to='/about'style={{ textDecoration:"none" }}> */}
+              <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#internship">Internship</a></li>
+                <li><a href="#projects">Porjects</a></li>
+                <li><a href="#contactMe">ContactMe</a></li>
             </ul>
         </div>
     </header>

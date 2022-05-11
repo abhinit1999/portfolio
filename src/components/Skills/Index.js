@@ -10,12 +10,11 @@ const Skills = () => {
         <div className="skills_row">
           <div className="skill_left">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae rerum quibusdam libero, reiciendis temporibus quia
-              perspiciatis? Veritatis itaque nam, qui necessitatibus eaque earum
-              quisquam illum facere assumenda. Odit, minima officia!
+              I am a student of Bachelor of Technology in computer science,from Lovely Professional University.
+              I have skills like React Js, JavaScript, HTML, CSS, C++,Python.
+              Databae : MySql, and MongoDB. And Some basic understanding about computer network and Operating System.
             </p>
-            <button className="cv">Read More...</button>
+            <button className="btn">Read More...</button>
           </div>
           <div className="skill_right">
               <div className="progress_div">

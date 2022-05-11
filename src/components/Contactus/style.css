@@ -8,12 +8,13 @@
     background: url(../Skills/bg2.jpg);
     display: grid;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-bottom: 50px;
 
 }
 .head h1
 {
+    margin-top: 30px;
     text-align: center;
     color: rgb(70, 180, 70);
     margin-bottom: 30px;

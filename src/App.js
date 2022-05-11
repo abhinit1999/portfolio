@@ -5,15 +5,15 @@ import Skills from "./components/Skills/Index";
 import Internship from "./components/Internship/Index";
 import Projects from "./components/Projects/Index";
 import ContactMe from './components/Contactus/Index';
-import{BrowserRouter as Router,
-Routes,Route
-  } from 'react-router-dom';
-import { Home } from "@material-ui/icons";
+// import{BrowserRouter as Router,
+// Routes,Route
+//   } from 'react-router-dom';
 
+import './App.css';
 
 function App() {
   return (
-    <>
+    <div id="home">
    <Header/>
    <About/>
 
@@ -31,7 +31,7 @@ function App() {
     
     
 
-<Router>
+{/* <Router>
 <Routes>
   <Route path="about" element={<About/>}/>
   <Route path="skill" element={<Skills/>}/>
@@ -42,11 +42,11 @@ function App() {
 
 
 
-</Router>
+</Router> */}
 
 
 
-    </>
+    </div>
   );
 }
 

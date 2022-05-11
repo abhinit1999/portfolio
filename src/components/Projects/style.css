@@ -5,20 +5,22 @@
 
 
 
-#project {
+#projects {
     margin-bottom: 50px;
+    margin-top: 150px;
+    height: auto;
     flex-wrap: wrap;
   }
   .project_box {
     width: 100vw;
-    height: auto;
+    height: auto;   
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
     box-shadow: 5px 2px 2px 5px gray;
   }
-  #project > .section_info {
+  #projects > .section_info {
     color: #549130;
   }
   .first {
@@ -73,6 +75,31 @@
   }
 
 
+  
+  .first span a
+  {
+    text-decoration: none;
+  }
+  .second span a
+  {
+    text-decoration: none;
+  }
+  .third span a
+  {
+    text-decoration: none;
+  }
+  span
+  {
+    margin: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: bold;
+ 
+  }
+  span a:hover
+  {
+    color: rgb(158, 78, 78);
+  }
 
 
 
@@ -81,7 +108,7 @@
 
 @media only screen and (max-width: 770px)
 {
-    #project {
+    #projects {
         flex-wrap: wrap;
       }
       .first {

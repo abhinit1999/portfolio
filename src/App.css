@@ -1,0 +1,20 @@
+*
+{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+#home
+{
+    /* overflow-x: hidden; */
+}
+
+Header
+{
+    position: sticky;
+    top: 0;
+}
+footer
+{
+    position: sticky;
+    bottom: 0;
+}
