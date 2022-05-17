@@ -10,15 +10,16 @@
     margin-top: 150px;
     height: auto;
     flex-wrap: wrap;
+    overflow-x: hidden;
   }
   .project_box {
-    width: 100vw;
-    height: auto;   
+    /* width: 100vw;
+    height: auto;    */
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    box-shadow: 5px 2px 2px 5px gray;
+    /* box-shadow: 5px 2px 2px 5px gray; */
   }
   #projects > .section_info {
     color: #549130;
@@ -30,6 +31,8 @@
     background-color: lightblue;
     margin-right: 10px;
     margin-left: 10px;
+    flex-wrap: wrap;
+    /* box-shadow: 5px 2px 2px 5px gray; */
   }
   .first h1 {
     margin: 20px;
@@ -43,10 +46,12 @@
   .second {
     /* width: 33.33vw; */
     flex-basis: 33%;
-    height: auto;
+    height: 37vh;
     /* height: 30vh; */
     background-color: lightblue;
     margin-right: 10px;
+    /* box-shadow: 5px 2px 2px 5px gray; */
+    flex-wrap: wrap;
   }
   .second h1 {
     margin: 20px;
@@ -60,9 +65,11 @@
   .third {
     /* width: 33.33vw; */
     flex-basis: 33%;
-    height: auto;
+    height: 37vh;
     background-color: lightblue;
     margin-right: 10px;
+    /* box-shadow: 5px 2px 2px 5px gray; */
+    flex-wrap: wrap;
   }
   .third h1 {
     margin: 20px;

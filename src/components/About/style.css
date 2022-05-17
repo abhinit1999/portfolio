@@ -11,7 +11,9 @@ main
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
- 
+    background-color: rgb(11, 12, 12);
+    color:white;
+    font-weight: 500;
 }
 .pic img
 {
