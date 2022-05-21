@@ -28,6 +28,12 @@ footer
     margin-top: 20px;
     cursor: pointer;
 }
+.follow a i
+{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
 .follow i:hover
 {
 color: rgb(134, 86, 86);
