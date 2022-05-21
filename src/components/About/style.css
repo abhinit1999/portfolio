@@ -40,3 +40,20 @@ main
     flex-wrap: wrap;
     
 }
+
+
+/* responsive design; */
+
+
+@media only screen and (max-width: 770px)
+{
+    .pic img
+    {
+        width: 100px;
+        height: auto;
+    }
+    .about
+    {
+        flex-wrap: wrap;
+    }
+}
