@@ -19,7 +19,7 @@ const About = () => {
             <br /><br /><span>Positive attitude:  </span>To progress positively under all circumstances with conviction and maturity in approach.
             <br /><br /><span>Enthusiasm for learning: </span>Endlessly strive to learn through different activities.
          
-         <br /> <a href="https://docs.google.com/document/d/1XcCqjm7Ag6MHoSeLiRNvljZEtN9u44uw/edit?usp=sharing&ouid=108509283532344909024&rtpof=true&sd=true" target="_blank"><button className="btn">Download CV</button></a>
+         <br /> <a href="https://docs.google.com/document/d/1wUWUnUWlmzsivhNib0ZX8z_bywLYqS2h/edit?usp=sharing&ouid=108509283532344909024&rtpof=true&sd=true" target="_blank"><button className="btn">Download CV</button></a>
           </p>
         </div>
       </main>
