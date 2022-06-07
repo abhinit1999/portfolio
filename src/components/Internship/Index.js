@@ -22,16 +22,19 @@ const Internship = () => {
           </div>
           <div className="internship_box_right">
             <h1>
-              Analytics Vidhya{" "}
-              <span>( From 4th May 2020 to 15th June 2020 )</span>
+            Newton School Coding Bootcamp Internship {" "}
+              <span>( From Decmber 2021 to Present )</span>
             </h1>
-            <h3>Introduction to Data Science</h3>
+            <li>Full Stack Web Development along with problem-solving.</li>
+            <li>Technical Stack Learn- React js,HTML, CSS, JavaScript Sql,and Bootstrap.</li>
+            <li>Participated in various coding contests organized by the platform</li>
+            <li>Worked on various projects like GitHub User's Finder,React Portfolio,etc.</li>
+           
+            {/* <h3></h3>
             <p>
-              I did summer training from 4th May to 15th June 2020 in Introduction to Data science
-               at Analytics Vidhya. In which i was taught from types of machine learning and their algoriths.
-              And After that they taught me some probability and statistic.
+              
             
-            </p>
+            </p> */}
           </div>
         </div>
       </section>
